@@ -1,0 +1,43 @@
+.ui-autocomplete {
+  z-index: 5000;
+}
+label {
+  color: black;
+}
+
+#dashboard-container{
+	margin-top:200px;
+}
+
+.btn-lg{
+	margin:10px;
+}
+
+.nav a {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 1.2em;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+#main-container {
+	padding-left: 50px;
+	padding-top: 50px;
+}
+
+#footer {
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}

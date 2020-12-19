@@ -1,0 +1,160 @@
+#sign{
+  background-color: transparent;
+  background: transparent;
+  border: transparent;
+}
+
+#thought-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.thought {
+  list-style-type: none;
+}
+
+.occasionDescription {
+  margin-top: 10px;
+}
+
+.edit-thought{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 20px;
+  width: 20px;
+  background: transparent;
+  border: transparent;
+}
+
+.delete-thought{
+  position: absolute;
+  top: 16px;
+  right: 0px;
+  height: 20px;
+  width: 20px;
+  background: transparent;
+  border: transparent;
+}
+
+.ui-corner-all:hover {
+  cursor: pointer;
+}
+
+.username {
+  font: bold 18px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 10px;
+  padding-right:11px;
+  padding-left: 55px;
+  padding: 1.2em;
+  color: black;
+}
+
+.thoughtProfilePicture{
+  float: left;
+  padding: 1em;
+  width: 5.5em;
+  height: 5.5em;
+  border-radius: 50%;
+}
+
+.thoughtMessage {
+  /*font: 200 15px/1.5 Cambria, Times New Roman, serif;*/
+  font-size: 20px;
+  color: black;
+  padding: 1em;
+  margin-bottom: 0;
+}
+
+.li_occasion {
+  padding: 0px;
+  overflow: auto;
+}
+
+
+.thought{
+  position:relative;
+
+}
+
+.add-box {
+  background:#EFECEC;
+  color: black;
+}
+
+.thought-box{
+  padding: 10px;
+  margin-bottom: 15;
+}
+
+.coverContainer {
+  /* width: 100%;
+  height: 300px; */
+  background: black;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+.coverContainer img.wide {
+  /* max-width: 200%;
+  max-height: 100%; */
+  height: auto;
+}
+.coverContainer img.tall {
+  /* max-height: 200%;
+  max-width: 100%; */
+  width: auto;
+}​
+
+.textarea {
+    overflow: auto;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+#hidden {
+    background: #000000;
+    color:#000000;
+}
+
+#preview{
+  display:none; 
+  width: 100%; 
+  height: 200px; 
+  border: 3px solid #DDDDDD; 
+  margin-bottom:15px;
+  background-color: #ffffff;
+}
+
+#previewImg{
+  max-width:100%; 
+  max-height:100%; 
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+.thoughtPhoto{
+  max-height: 500px;
+  max-width:500px;
+  margin:5px;
+}
+.thoughtPhotoDiv{
+  position:relative;
+}
+
+.coverPicture{
+  /* width:100%;
+  height:300px; */
+  min-width: 500px;
+}
+
+
+.coverPhoto{
+  color: black;
+  background-color: #eeeeee;
+}
+
+@media (min-width: 768px) {
+  .coverPhoto {
+    margin-top:105px; 
+  }
+}
