@@ -43,11 +43,9 @@
 
 .username {
   font: bold 18px/1.5 Helvetica, Verdana, sans-serif;
-  margin: 10px;
-  padding-right:11px;
-  padding-left: 55px;
-  padding: 1.2em;
+  padding-top: 1.5em;
   color: black;
+  float: left;
 }
 
 .thoughtProfilePicture{
