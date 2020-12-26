@@ -41,6 +41,11 @@
   cursor: pointer;
 }
 
+.video {
+  width: 100%;
+  height: calc(100vw * 0.3);
+}
+
 .username {
   font: bold 18px/1.5 Helvetica, Verdana, sans-serif;
   padding-top: 1.5em;
